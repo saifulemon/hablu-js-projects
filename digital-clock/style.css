@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    background: radial-gradient(#c98b00, #000000bf);
+}
+
+.my-watch {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.date-add {
+    width: 25vw;
+    background: #bfb432;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.time {
+    margin: 133px 0 20px 0;
+    width: 35vw;
+    height: 40px;
+    background: #32bf91;
+    text-align: center;
+    border-radius: 13px;
+}
+
+span.H {
+    font-size: 32px;
+    color: firebrick;
+}
+
+span.M {
+    color: ghostwhite;
+}
+
+
+
+/* mobile responsive */
+@media only screen and (max-width: 550px) {
+    .time {
+        width: 60vw;
+    }
+
+    .date-add {
+        width: 55vw;
+    }
+}
