@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="calc-body">
+        <table>
+            <tr>
+                <td colspan="4"><input type="text" id="result"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="C" onclick="deleteMe()"></td>
+                <td><input type="button" value="(" onclick="addMe('(')"></td>
+                <td><input type="button" value=")" onclick="addMe(')')"></td>
+                <td><input type="button" value=" "></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="7" onclick="addMe('7')"></td>
+                <td><input type="button" value="8" onclick="addMe('8')"></td>
+                <td><input type="button" value="9" onclick="addMe('9')"></td>
+                <td><input type="button" value="+" onclick="addMe('+')"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="4" onclick="addMe('4')"></td>
+                <td><input type="button" value="5" onclick="addMe('5')"></td>
+                <td><input type="button" value="6" onclick="addMe('6')"></td>
+                <td><input type="button" value="-" onclick="addMe('-')"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="1" onclick="addMe('1')"></td>
+                <td><input type="button" value="2" onclick="addMe('2')"></td>
+                <td><input type="button" value="3" onclick="addMe('3')"></td>
+                <td><input type="button" value="*" onclick="addMe('*')"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="0" onclick="addMe('0')"></td>
+                <td><input type="button" value="." onclick="addMe('.')"></td>
+                <td><input type="button" value="/" onclick="addMe('/')"></td>
+                <td><input type="button" value="=" onclick="outPut()"></td>
+            </tr>
+        </table>
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
