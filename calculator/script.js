@@ -2,7 +2,6 @@
 function deleteMe() {
     document.getElementById('result').value = null;
 }
-deleteMe();
 
 
 // for adding any value
